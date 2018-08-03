@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 int size(int a[],int b[]){
-    if(a[0] > b[2] || a[2] < b[0] || a[1] > b[2] || a[2] < b[1])
+    if(a[0] > b[2] || a[2] < b[0] || a[1] > b[3] || a[3] < b[1])
         return 0;
     std::cout << min(a[2],b[2]) << ' '<< max(a[0],b[0]) << ' ' <<min(a[3],b[3]) << ' ' << max(a[1],b[1]);
     std::cout << std::endl;
