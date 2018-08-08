@@ -7,7 +7,7 @@ int main(){
     std::ifstream in("measurement.in");
     std::ofstream out("measurement.out");
 
-    std::map<int,int> dayid;
+    std::map<int,int> daycount;
     std::map<int,int> idgallons;
     std::map<int,int> curgallons;
     
