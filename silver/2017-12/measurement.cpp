@@ -59,16 +59,8 @@ int main(){
 
 #if 1
         if(istop){
-            if(wastop){
-                if(del){
-                    if(galcount[idgallons[id]] > 1)
-                        change++;    
-                } else{
-                    change++;
-                }
-            } else{
-                change++;
-            }
+          if(!wastop || !del || (galcount[idgallons[id]] > 1))
+                change++;    
         } else{
             if(wastop) change++;
         }

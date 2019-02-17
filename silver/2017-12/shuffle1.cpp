@@ -44,8 +44,6 @@ int main(){
         pattern[i] = pat-1;
     }
     for(int i = 0; i < size+1; i++){
-        std::cout << "isin: ";
-        
         int tmp = shuffle(pattern,isin,size);
         if(count == tmp){
             break;
